@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarpeek",
+  "version": "${version}",
+  "name": "HotBarPeek",
+  "description": "This Mod Show Item Top Head Player",
+  "authors": [
+    "abo9kr"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.abo9kr.hotbarpeek.HotBarPeekClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
